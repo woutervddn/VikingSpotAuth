@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+	    <meta charset="UTF-8">
+	    <title>CityLife Auth</title>
+	    <link rel="stylesheet" href="css/main.css">
+	    <link href="css/blitzer/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	    <style>
+	        #ui-datepicker-div{font-size: 60%;}
+	        .main{
+	            display: block;
+	        }
+	    </style>
+    </head>
+    <body>
+        <header>
+            <a href="main.html"><img src="img/CityLifeLogo.png"></a>
+        </header>
+        <div class="main">
+            <form name="request-form" id="request-form">
+              <div class="item-block" id="location-block">
+                <input type="email" name="email" id="email" placeholder="johndoe@example.com" autofocus="autofocus" /><br />
+                <input type="password" name="pass" id="pass" placeholder="password" /><br />
+              </div>
+              <div class="item-block" id="time-block">
+                <a class="buttonWrapper" id="auth" href="#"><div class="button">Authorize</div></a>
+              </div> 
+            </form>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

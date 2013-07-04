@@ -1,0 +1,17 @@
+{
+ "name": "CityLife / VikingSpots Auth Tool",
+ "description": "A simple & fast Chrome WebApp to get access tokens of the CL / VS api",
+ "version": "1.0",
+ "manifest_version": 2,
+ "offline_enabled" : false,
+ "app": {
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+ },
+ "permissions": [
+ ],
+  "sandbox": {
+    "pages": [ "index.html" ]
+  }
+}
